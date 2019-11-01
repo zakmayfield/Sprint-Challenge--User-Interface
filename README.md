@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-  If I were to describe semanitc HTML to a new student, I would say: Semantic = Meaning. If you write your HTML semantically then you are helping, most importantly, people with disabilities help browse the most powerful tool on earth, the internet. By making your webpage accessible and semantic we help people browse the internet, when they never thought they could. Also it improves readability of your code  <header> <nav> and <main> are much easier to tell what they are than <div> <div> and <div> 
+  If I were to describe semanitc HTML to a new student, I would say: Semantic = Meaning. If you write your HTML semantically then you are helping, most importantly, people with disabilities help browse the most powerful tool on earth, the internet. By making your webpage accessible and semantic we help people browse the internet, when they never thought they could. Also it improves readability of your code  *header* *nav* and *main* are much easier to tell what they are than *div* *div* and *div* 
 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
