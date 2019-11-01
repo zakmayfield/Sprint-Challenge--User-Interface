@@ -591,3 +591,32 @@ p{
 .contact-social a{
     margin: 0 1vh;
 }
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .all-contact-cards{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .contact-card{
+        width: 80%;
+        margin: 2vh 0;
+    }
+
+    .contact-card h2, .contact-us h2, .contact-lower-sub h2{
+        font-size: 3rem;
+    }
+
+    .contact-card p, .contact-us p, .contact-lower-sub p{
+        font-size: 2rem;
+    }
+
+    .contact-card p{
+        font-size: 2rem;
+    }
+}
