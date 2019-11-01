@@ -66,6 +66,105 @@ p {
     line-height: 1.4;
 }
 
+
+
+
+/*Random Boxes*/
+
+.box1{
+    background: teal;
+}
+.box2{
+    background: gold;
+}
+.box3{
+    background: cadetblue;
+}
+.box4{
+    background: coral;
+}
+.box5{
+    background: crimson;
+}
+.box6{
+    background: forestgreen;
+}
+.box7{
+    background: darkorchid;
+}
+.box8{
+    background: hotpink;
+}
+.box9{
+    background: indigo;
+}
+.box10{
+    background: dodgerblue;
+}
+
+
+
+/*Header / Nav*/
+
+
+/*Header UPPER*/
+
+header{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.header-container-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 800px;
+    margin: 2vh 0 3vh 0;
+}
+
+.header-logo-container{
+    width: 25%;
+}
+
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+    width: 75%;
+    margin-top: 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.nav a:hover{
+    color: rgb(61, 61, 61);
+}
+
+
+/*Header LOWER*/
+
+.header-container-lower{
+    margin-bottom: 2vh;
+}
+
+
+
+
+
+
+
+
+/*main content*/
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,7 +203,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +241,16 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover{
+    color: rgb(216, 216, 216);
+}
+
+h2{
+    font-weight: 800;
+}
+
+p{
+    font-weight: 600;
 }
