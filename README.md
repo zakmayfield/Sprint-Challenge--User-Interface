@@ -128,3 +128,4 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
 *ABOUT-DONE*
+*HOME-DONE*
