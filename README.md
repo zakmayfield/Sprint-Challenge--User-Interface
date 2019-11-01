@@ -114,6 +114,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] Link the `Home` navigation item back to the `index.html` page.
 *DONE*
 * [ ] Build the rest of the about page layout to match the design
+*DONE*
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -123,5 +124,7 @@ After finishing your required elements, you can push your work further. These go
 
 * [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
 * [ ] Introduce CSS animations to your site.
+*DONE*
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
+*ABOUT-DONE*
