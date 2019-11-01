@@ -498,3 +498,46 @@ p{
 
 /*CONTACT PAGE*/
 
+
+.contact-body{
+    margin: 0 auto;
+    width: 800px;
+}
+
+
+.header-container-lower{
+    display: flex;
+    justify-content: center;
+}
+.contact-header-img-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.contact-header-img{
+    width: 100%;
+}
+
+.contact-main{
+    display: flex;
+    justify-content: center;
+
+    widows: 90%;
+}
+
+.contact-main-sub{
+
+    width: 95%;
+
+    border-bottom: 1px dashed black;
+    margin-bottom: 5vh;
+}
+
+.contact-us{
+
+}
+
+.contact-us p{
+    margin-bottom: 1.5vh;
+}
+
