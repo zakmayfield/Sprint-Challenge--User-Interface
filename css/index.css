@@ -66,6 +66,108 @@ p {
     line-height: 1.4;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+
+
+
+/*Random Boxes*/
+
+.box1{
+    background: teal;
+}
+.box2{
+    background: gold;
+}
+.box3{
+    background: cadetblue;
+}
+.box4{
+    background: coral;
+}
+.box5{
+    background: crimson;
+}
+.box6{
+    background: forestgreen;
+}
+.box7{
+    background: darkorchid;
+}
+.box8{
+    background: hotpink;
+}
+.box9{
+    background: indigo;
+}
+.box10{
+    background: dodgerblue;
+}
+
+
+
+/**********HOME PAGE*************/
+
+/*Header / Nav*/
+
+
+/*Header UPPER*/
+
+header{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.header-container-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 800px;
+    margin: 2vh 0 3vh 0;
+}
+
+.header-logo-container{
+    width: 25%;
+}
+
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+    width: 75%;
+    margin-top: 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.nav a:hover{
+    color: rgb(61, 61, 61);
+}
+
+
+/*Header LOWER*/
+
+.header-container-lower{
+    margin-bottom: 2vh;
+}
+
+
+/*main content*/
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,7 +206,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +244,379 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover{
+    color: rgb(216, 216, 216);
+}
+
+
+
+/*Media Q's for HOME PAGE*/
+
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+    .top-content {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        width: 100%;
+
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+    }
+
+    .top-content .text-container{
+        width: 100%;
+        margin: 1vh 0;
+    }
+
+    .top-content .text-container p, .bottom-content .text-container p{
+        font-size: 1.2rem;
+    }
+
+    .top-content .text-container h2, .bottom-content .text-container h2{
+        font-size: 1.3rem;
+        font-weight: 900;
+    }
+
+    .middle-content h2{
+        font-size: 2rem;
+        margin: .5vh 0;
+    }
+
+    .middle-content .boxes .box{
+        width: 25%;
+        height: 15vh;
+    }
+
+    .bottom-content{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .bottom-content .text-container{
+        margin: 2vh;
+    }
+  }
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    
+    .top-content {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        width: 100%;
+
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+    }
+
+    .top-content .text-container{
+        width: 100%;
+        margin: 1vh 0;
+    }
+
+    .top-content .text-container p, .bottom-content .text-container p{
+        font-size: 1.5rem;
+    }
+
+    .top-content .text-container h2, .bottom-content .text-container h2{
+        font-size: 1.75rem;
+        font-weight: 900;
+    }
+
+    .middle-content h2{
+        font-size: 2rem;
+        margin: .5vh 0;
+    }
+
+    .middle-content .boxes .box{
+        width: 25%;
+        height: 8vh;
+    }
+
+    .bottom-content{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .bottom-content .text-container{
+        margin: 1vh;
+    }
+}
+
+
+
+
+
+/***********GENERAL BOTH PAGES**********/
+
+h2{
+    font-weight: 800;
+}
+
+p{
+    font-weight: 600;
+}
+
+
+
+
+
+
+/**************ABOUT page************/
+
+
+.about-top-content{
+    border-bottom: 1px dashed black;
+    margin-bottom: 2.5vh;
+    padding: 1vh 1vh 2.5vh 1vh;
+}
+
+.about-main-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.card{
+    width: 48%;
+    margin: 2vh 0;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+
+    border-bottom: 1px dashed black;
+}
+
+.card img{
+    margin-bottom: 2vh;
+}
+
+.btn-box{
+    margin-top: 2.5vh;
+    margin-bottom: 1vh
+}
+
+.btn-box a{
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+
+    border: 2px solid black;
+}
+
+.btn-box a:hover{
+    background: black;
+    color: white;
+    transition: 300ms;
+}
+
+.about-bottom-content{
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    padding: 1vh;
+}
+
+
+
+
+
+/*MEDIA QUERIES FOR ABOUT*/
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    
+    
+    .header-logo-container{
+        width: 50%;
+    }
+
+    .lambda-logo{
+        width: 100%;
+    }
+    
+    .nav{
+        display: flex;
+        flex-flow: column;
+    
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .nav a{
+        text-decoration: none;
+        color: black;
+        font-size: 3rem;
+        font-weight: 800;
+        margin: 1vh;
+    }
+
+    footer nav a{
+        font-size: 2rem;
+        margin: 0 1.3vh;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .about-main-content{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .card{
+        width: 90%;
+        margin: 2vh 0;
+        padding-bottom: 2vh;
+        padding-top: 2vh;
+    
+        border-bottom: 1px dashed black;
+    }
+    .card img{
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+}
+
+
+
+
+
+/*CONTACT PAGE*/
+
+
+.contact-body{
+    margin: 0 auto;
+    width: 800px;
+}
+
+
+.header-container-lower{
+    display: flex;
+    justify-content: center;
+}
+.contact-header-img-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.contact-header-img{
+    width: 100%;
+}
+
+.contact-main{
+    display: flex;
+    justify-content: center;
+
+    widows: 90%;
+}
+
+.contact-main-sub{
+
+    width: 95%;
+
+    
+}
+
+.contact-us{
+    border-bottom: 1px dashed black;
+    margin-bottom: 5vh;
+}
+
+.contact-us p{
+    margin-bottom: 1.5vh;
+}
+
+
+.all-contact-cards{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5vh;
+
+    border-bottom: 1px dashed black;
+}
+
+.contact-card{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    box-shadow: 5px 10px 6px #888;
+
+    padding: 5vh 2vh;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.all-contact-cards .contact-card h2{
+    margin-bottom: 4vh;
+}
+
+
+.contact-footer{
+    margin-top: 5vh;
+}
+
+.contact-lower-sub{
+    display: flex;
+    flex-flow: column;
+    margin-top: 5vh;
+}
+
+.contact-social{
+    display: flex;
+
+    margin-top: 5vh;
+
+    justify-content: center;
+}
+
+.contact-social a{
+    margin: 0 1vh;
+}
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .all-contact-cards{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .contact-card{
+        width: 80%;
+        margin: 2vh 0;
+    }
+
+    .contact-card h2, .contact-us h2, .contact-lower-sub h2{
+        font-size: 3rem;
+    }
+
+    .contact-card p, .contact-us p, .contact-lower-sub p{
+        font-size: 2rem;
+    }
+
+    .contact-card p{
+        font-size: 2rem;
+    }
 }

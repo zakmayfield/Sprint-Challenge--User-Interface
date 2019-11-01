@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+  If I were to describe semanitc HTML to a new student, I would say: Semantic = Meaning. If you write your HTML semantically then you are helping, most importantly, people with disabilities help browse the most powerful tool on earth, the internet. By making your webpage accessible and semantic we help people browse the internet, when they never thought they could. Also it improves readability of your code  *header* *nav* and *main* are much easier to tell what they are than *div* *div* and *div* 
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+  Display block takes up as much possible space as allowed by its parent, also display: block does not share lines with any other element, such as *p* or *div*. Inline-block allowed previoulsy block level elements to now share the same line with any other element - granted the other element is allowed to.
+
 
 3. What are the 4 areas of the box model?
 
+  content, padding, border, margin
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+  cross axis
+
+
 5. Explain why git is valuable to a team of developers.
+
+  git is valuable to a team of developers because it allows multiple people to work on the same project and not mess up the original copy.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -70,7 +85,9 @@ Your finished project must include all of the following requirements:
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
 * [ ] Build the HTML and CSS to create the missing navigation and header.
+*DONE*
 * [ ] Link the `About` navigation item to the [about.html](about.html) page
+*DONE*
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
@@ -84,15 +101,20 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] box8: `hotpink`
 * [ ] box9: `indigo`
 * [ ] box10: `dodgerblue`
+*DONE*
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
+* [ ] Copy and paste your home page navigation and header into the about page 
+*DONE*
 * [ ] Update the header image with the about page image
+*DONE*
 * [ ] Link the `Home` navigation item back to the `index.html` page.
+*DONE*
 * [ ] Build the rest of the about page layout to match the design
+*DONE*
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -102,5 +124,8 @@ After finishing your required elements, you can push your work further. These go
 
 * [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
 * [ ] Introduce CSS animations to your site.
+*DONE*
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
+*ABOUT-DONE*
+*HOME-DONE*
